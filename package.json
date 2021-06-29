@@ -1,0 +1,34 @@
+{
+  "name": "MMM-August-Lock",
+  "version": "2.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relm923/MMM-August-Lock"
+  },
+  "description": "Magic Mirror module to display August Lock Information",
+  "main": "MMM-August-Lock.js",
+  "author": "Reagan Elm",
+  "license": "MIT",
+  "scripts": {
+    "auth": "node auth-helper.js",
+    "lint": "eslint --fix ."
+  },
+  "keywords": [
+    "magic mirror",
+    "smart mirror",
+    "august"
+  ],
+  "devDependencies": {
+    "chalk": "^4.1.1",
+    "eslint": "^7.29.0",
+    "inquirer": "^8.1.1",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "august-connect":"^3.0.0"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  }
+}

@@ -1,0 +1,18 @@
+.MMM-August-Lock .name {
+  padding-left: 0px;
+  padding-right: 25px;
+  text-align: left;
+}
+
+.MMM-August-Lock .status {
+  padding-left: 30px;
+  padding-right: 0px;
+}
+
+.MMM-August-Lock i {
+  padding-left: 10px;
+}
+
+.MMM-August-Lock .fa-lock-open, .fa-door-open {
+  color: red;
+}
